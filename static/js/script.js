@@ -8,3 +8,5 @@ greyBtn.addEventListener("click", function onClick(event) {
 pinkBtn.addEventListener("click", function onClick(event) {
   document.body.style.backgroundColor = "#F9C7E4";
 });
+
+setupCounter(document.querySelector("#counter"));
