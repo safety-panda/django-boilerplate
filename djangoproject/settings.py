@@ -130,7 +130,7 @@ STATIC_URL = "/static/"
 DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "dist"
 
 # If use HMR or not
-DJANGO_VITE_DEV_MODE = DEBUG
+DJANGO_VITE_DEV_MODE = True
 
 # Name of static files folder (after called python manage.py collectstatic)
 STATIC_ROOT = "collectedstatic"
