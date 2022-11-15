@@ -1,6 +1,7 @@
 django
 django-environ
 django-widget-tweaks
+django-vite
 mypy
 flake8
 black
