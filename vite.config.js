@@ -24,7 +24,7 @@ module.exports = {
     target: "es2015",
     rollupOptions: {
       input: {
-        main: resolve("./static/src/js/main.js"),
+        script: resolve("./static/js/script.js"),
       },
       output: {
         chunkFileNames: undefined,
